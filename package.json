@@ -1,0 +1,23 @@
+{
+  "name": "terminal_asker",
+  "version": "1.0.0",
+  "description": "Takes a question, asks user question in terminal, returns user response.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node appTester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYX1122/Terminal_Asker.git"
+  },
+  "author": "BoDee Angus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYX1122/Terminal_Asker/issues"
+  },
+  "homepage": "https://github.com/NYX1122/Terminal_Asker#readme",
+  "dependencies": {
+    "inquirer": "^9.2.15"
+  }
+}
