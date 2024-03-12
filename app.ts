@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 
-export default async function (question) {
+export default async function (question: string): Promise<string | undefined> {
   try {
     const { [question]: response } = await inquirer.prompt([
       { name: question },
